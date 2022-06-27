@@ -1,0 +1,211 @@
+/* main.css*/
+
+body { /*Global body formatting*/
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Arial, sans-serif;
+    color: #E5E7EB;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+p { /* Global paragraph formatting*/
+    margin: 0;
+}
+
+a { /* Global anchor formatting*/
+    text-decoration: none; 
+}
+
+a:active, a:visited, a:link {  /* Global links formatting*/
+    color: #E5E7EB;
+}
+
+a:hover {  /* Global link hover formatting*/
+    color: #595959;
+}
+
+ul {  /* Global unordered formatting*/
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+button {  /* Global button formatting*/
+    padding: 2px 16px;
+    border-radius: 8px;
+    background-color: #3882F6;
+    color: white;
+    font-size: 12px;
+  }
+
+/* Header, Footer & Title Section */
+.header, 
+.footer { /* header adn footer shared formatting*/
+    background-color:#1F2937;
+    display:flex;
+    padding: 30px 100px;
+    align-items: center;
+}
+
+.header {  /* header formatting*/
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.title { /* Logo or site title formatting*/
+    font-weight: 900;
+}
+
+.nav { /* navigation bar links formatting*/
+    font-size: 14px;
+}
+
+.footer { /* footer formatting (all)*/
+    justify-content: center;
+}
+
+p.copyright { /* footer text formatting*/
+    font-size: 12px;
+}
+
+/* First Section - First call to action with product description */
+.info { /* main container*/
+    background-color:#1F2937;
+    color: #F9FAF8;
+    display: flex;
+    gap: 30px;
+    padding: 30px 100px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.info2 { /*description container*/
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    min-width: 340px;
+    max-width: 470px;
+ }
+
+.service_title { /*description title*/
+    font-size: 28px;
+    font-weight: bolder;
+}
+
+.first_image img { /*image to the right of description*/
+    width: 400px;
+    height: 200px;
+}
+  
+button.sign_up_1 { /*Sign up button in description*/
+    /* border: 1px solid #3882F6; */
+    align-self: flex-start;
+  }
+
+/* Second Section */
+.second_title {/*2nd section main title*/
+    text-align: center;
+    margin-bottom: 32px;
+    font-weight: bold;
+    color: black;
+    font-size: 18px;
+    padding-top: 30px;
+}
+
+.services { /*services container*/
+    display:flex;
+    justify-content: center;
+    gap: 52px;
+    flex-wrap: wrap;
+    padding: 20px 20px 80px;
+}
+
+.card { /*images and text*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card img { /*services images*/
+    width: 150px;
+    height: 150px;
+    border: 2px solid #595959;
+    border-radius: 10px;
+    max-width: 150px;
+    box-shadow: 3px 3px 20px #595959
+}
+
+.text {/* image text formatting*/
+    max-width: 200px;
+    text-align: center;
+    color:#1F2937;
+    font-size: 12px;
+}
+
+/* Third Section - Quote */
+.third {/*3rd section container*/
+    background-color: #E5E7EB;
+    color: #76777a;
+    display: flex;
+    flex-direction: column;
+    padding: 80px 200px;
+}
+
+.quote {/*Quote text*/
+    font-style:italic;
+    font-size: 20px;
+    /* width: 800px; */
+}
+
+.author { /*Author of quote formatting*/
+    font-weight:bold;
+    align-self: flex-end;
+}
+
+/* Forth Section */
+.forth { /*4th section container*/
+    border-radius: 5px;
+    background-color: #3882F6;
+    margin: 80px 100px;
+    padding: 30px 80px;
+    min-width: 180px;
+}
+
+.call_action { /*call to action content*/
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.action, .call { /*call to action text global formatting*/
+    color: white;
+}
+
+.action { /*text formatting*/
+    flex-direction: column;
+    font-size: 12px;
+    min-width: 180px;
+}
+
+.call { /*text formatting*/
+    font-size: 8px;
+}
+
+.button2 { /*sign up button container*/
+    flex-shrink: 0;
+}
+
+button.sign_up_2 { /*sign up button Call to action formatting*/
+    /* border: 1px solid white;   */
+}

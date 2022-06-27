@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/main.css">
+    <title>Forms</title>
+</head>
+
+<body>
+
+    <header>
+        <a href="../index.html">HOME</a>
+        <a href="practice.html">PRACTICE</a>
+    </header>
+    <section class="lesson">
+        <h1>Forms</h1>
+        <h2>Practice from lesson</h2>
+        <fieldset>
+            <legend><h1>First form</h1></legend>
+            <form action="example.com/path" method="post">
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName" placeholder="First Name"><br>
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" placeholder="joedoh@gmail.com"><br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Password"><br>
+                <label for="amount">Amount:</label>
+                <input type="number" id="amount" name="amount" placeholder="number"><br>
+                <label for="date">DOB</label>
+                <input type="date" id="dob" name="dob"><br>
+                <textarea name="text" id="text" cols="30" rows="10"></textarea><br>
+                <select name="Car">
+                    <optgroup label="clothing">
+                        <option value="mercasdes">mercasdes</option>
+                        <option value="tesla">Tesla</option>
+                        <option value="volvo">Volvo</option>
+                    </optgroup>
+                    <optgroup label="footware">
+                        <option value="bmw" selected>BMW</option>
+                        <option value="mini">Mini</option>
+                        <option value="ford">Ford</option>
+                    </optgroup>
+                </select>
+        </fieldset>
+              <h2>ticket type</h2>
+                <div>
+                    <input type="radio" id="child" name="ticketType" value="child">
+                    <label for="child">child</label>
+                </div>
+                <div>
+                    <input type="radio" id="adult" name="ticketType" value="adult" checked>
+                    <label for="adult">Adult</label>
+                </div>
+                <div>
+                    <input type="radio" id="senior" name="ticketType" value="senior">
+                    <label for="senior">Seniour</label>
+                </div>
+            <h1>Pizza Toppings</h1>
+            <div><input type="checkbox" name="topping" id="onions">
+                <label for="onions">Onions</label>
+                <input type="checkbox" name="topping" id="sausage">
+                <label for="sausage">Sausage</label>
+                <input type="checkbox" name="topping" id="pepperoni">
+                <label for="pepperoni">Pepperoni</label>
+                <input type="checkbox" name="topping" id="mushrooms">
+                <label for="mushrooms">Mushrooms</label>
+            </div>
+            <div>
+                <input type="checkbox" name="newsLetter" id="newsLetter" checked>
+                <label for="newsleter">Newsletter</label>
+            </div>
+            <button type="submit">Click Me</button>
+            <button type="reset">reset</button>
+            <button type="button">Just a button</button>
+          </form>
+    
+          <fieldset>
+            <legend>Contact Details</legend>
+            <label for="first_name">First Name</label>
+            <input type="text" id="first_name" name="first_name">
+          
+            <label for="last_name">Last Name</label>
+            <input type="text" id="last_name" name="last_name">
+          </fieldset>
+          <fieldset>
+            <legend>finish him!
+            </legend>
+            <label for="firstName">First Name</label>
+            <input type="text" id="firstName" name="firstName">
+    
+            <label for="lastName">Last Name</label>
+            <input type="text" id="lastName" name="lastName">
+          </fieldset>
+    
+          <p>forms are used to collect data from users. you can wrap a form in fieldset while also giving it a form element. SOme of the other element tags are label, input and textarea. Label needs to have for after label and then can have a title. input element ona seperate line contains type , id, and name. type defines what the form element is ie email, date, amount (number), text, radio, checkbox or button. each do different things. id ?? not sure and name serves as a kind of variable for the form so what ever the user enters nto the for gets stored in that variable.
+          </p>
+    </section>
+    <section class="form-practice">
+
+    </section>
+    <footer></footer>
+
+</body>
+</html>

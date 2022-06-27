@@ -3,33 +3,93 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/styles.css">
     <title>Portfolio</title>
 </head>
+
 <body>
-    <div class="container">
-        <div class="nav">
-            <h1 class="logo">DEAN LANE</h1>
-            <ul>
-                <li><a href="#">PROJECTS</a></li>
-                <li><a href="#">BLOG</a></li>
-                <li><a href="#">ABOUT ME</a></li>
-                <li><a href="#">CONTACT</a></li>
-            </ul>
-        </div>
-        <div class="mainBody">
-            <div class="content">
-                <h1>DEAN LANE</h1>
-                <h2>portfolio</h2>
+    <header class="header">    
+        <a href="#"><img class="logo" src="image/logo.png"></a>
+        <ul class="nav">
+            <li><a href="pages/projects.html">projects</a></li>
+            <li><a href="pages/practice.html">practice</a></li>
+            <li><a href="pages/journal.html">journal</a></li>
+            <li><a href="#">resume</a></li>
+            <li><a href="#">about</a></li>
+            <li><a href="pages/boilerpage-template.html">contact</a></li>
+        </ul>
+    </header>
+
+<!-- introduction -->
+    <section class="introduction">
+        <div class="intro">
+            <h1>hello</h1>
+            <h2>i'm <span style="color: #8D8CDB">D</span>ean</h2>
+            <p> &lt; production planner &gt;<br>
+                &lt; wanna be front-end web developer &gt;<br>
+                &lt; photographer &gt;</p>
+            <div class="button">
+                <button class="btn btn-full" type="button">ABOUT</button>
+                <button class="btn btn-tran" type="button">RESUME</button>
             </div>
-            <div class="content">Some content</div>
-            <div class="content">Some content</div>
-            <div class="content">Some content</div>
-            <div class="content">Some content</div>
+        </div>    
+        <img class="hero-img" title="hero-image" src="#" width="550px" height="488px">    
+    </section>        
+
+<!-- projects-->
+    <section>
+        <div class="projects">
+            <h2><span style="color:#6CC1D1">P</span>rojects</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="#" title="card-1" width="230px" height="268px">
+                    <p class="project-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, exercitationem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, exercitationem.</p>
+                </div>
+                <div class="card">
+                    <img src="#" title="card-2" width="230px" height="268px">
+                    <p class="project-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, exercitationem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, exercitationem.</p>
+                </div>
+                <div class="card">
+                    <img src="#" title="card-3" width="230px" height="268px">
+                    <p class="project-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, exercitationem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, exercitationem.</p>
+                </div>
+                <div class="card">
+                    <img src="#" title="card-4" width="230px" height="268px">
+                    <p class="project-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, exercitationem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, exercitationem.</p>
+                </div>
+                <div class="card">
+                    <img src="#" title="card-5" width="230px" height="268px">
+                    <p class="project-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, exercitationem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, exercitationem.</p>
+                </div>
+            </div>
+            <a href="pages/projects.html"><button class="btn btn-full btn-seeMore" type="button">see more..</button></a>
         </div>
+    </section>
+
+<!-- languages -->
+    <section>
+        <div class="languages">
+            <h2><span style="color:#6CC1D1">L</span>anguages</h2>
+            <div class="language-container">
+                <img src="image/html.png" alt="HTML5">
+                <img src="image/css.png" alt="CSS3">
+                <img src="image/javascript.png" alt="JavaScript">
+                <img src="image/python.png" alt="Python">
+            </div>
+    </section>
+
+<!-- footer -->
+    <footer>
         <div class="footer">
-            Copyright &copy; All Rights Reserved, 2022
+            <h3>Dean Lane</h3>
+            <h4>Copyright &copy; All Rights Reserved, 2022</h4>
+            <div class="footer-social">
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">GitHub</a>
+                <a href="#">Email</a>
+            </div>
         </div>
-    </div>    
+    </footer>               
 </body>
 </html>
